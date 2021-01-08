@@ -179,10 +179,17 @@ function btnRetry(items){
 //     var pageEnd = page*pageItems;
 //     var pageStr = "";
 //     for(var i=pageStart; i<pageEnd; i++){
-//         pageStr += `<li class = "BMIlist">${data[i]}</li>`
+//         pageStr += `<li class = "BMIlist">${data[i]}</li>`  
 //     };
 //     list.innerHTML = pageStr;
 // }
+
+
+//想要做一個分頁的區塊，但點選頁數跑出來會變成[object object]
+//感覺是 for(var i=pageStart; i<pageEnd; i++){
+//         pageStr += `<li class = "BMIlist">${data[i]}</li>`  
+//       } ; 
+//出了問題??
 
 
 

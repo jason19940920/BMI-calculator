@@ -146,51 +146,6 @@ function btnRetry(items){
     });
 }
 
-// //顯示頁數
-// (function showBtn() {
-//     //先創建li元素
-//     var pageList = document.createElement('li');
-//     //設定li的classname
-//     pageList.className = "pageBtn";
-//     //將li新增到ul的子元素
-//     pageMain.appendChild(pageList);
-//     //計算頁數
-//     var btnNum = Math.ceil(data.length/5);
-//     //將頁數填進去按鈕中
-//     var pageStr = "";
-//     for(i=0; i<btnNum; i++) {
-//         pageStr += `<li data-index="${i}" class="pageList">${i+1}</li> `;
-//     }
-//     pageMain.innerHTML = pageStr;
-
-    
-
-//     //設置換頁按鈕監聽
-//     var pageBtn = document.querySelectorAll('.pageList'); 
-//     for(i=0; i<btnNum; i++){
-//         pageBtn[i].addEventListener('click',changePage.bind(this,i+1,data));
-//     }   
-  
-// })();
-
-// function changePage(page, data){
-//     var pageItems = 10;
-//     var pageStart = (page-1)*pageItems;
-//     var pageEnd = page*pageItems;
-//     var pageStr = "";
-//     for(var i=pageStart; i<pageEnd; i++){
-//         pageStr += `<li class = "BMIlist">${data[i]}</li>`  
-//     };
-//     list.innerHTML = pageStr;
-// }
-
-
-//想要做一個分頁的區塊，但點選頁數跑出來會變成[object object]
-//感覺是 for(var i=pageStart; i<pageEnd; i++){
-//         pageStr += `<li class = "BMIlist">${data[i]}</li>`  
-//       } ; 
-//出了問題??
-
 
 
 

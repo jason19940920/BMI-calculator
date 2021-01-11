@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  body{
+    width: 1024px;
+    
+    margin: auto;
+    background-color: rgb(243, 242, 242);
+  }
+  .container{
+    width: 100%;
+    height: 300px;
+    background-color: #424242;
+    position: relative;
+  }
+  .icon{
+    background: url('https://i.postimg.cc/SNfHsxVp/BMICLogo.png');
+    width: 117px;
+    height: 117px;
+    position: absolute;
+    top: 92px;
+    left: 173px;
+  }
+  .input{
+    position: absolute;
+    top: 74px;
+    left: 387px;
+    
+  }
+  .cm{
+    font-size: 18px;
+    color: #ffd366;
+    padding-bottom: 7px;
+  }
+  .inputHeight{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #ffd366;
+    background-color: rgba(255,255,255,.18);
+    color: rgba(255,255,255,.5);
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+  }
+  .kg{
+    font-size: 18px;
+    color: #ffd366;
+    padding-bottom: 7px;
+  }
+  .inputWeight{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #ffd366;
+    background-color: rgba(255, 255, 255, .18);
+    color: rgba(255, 255, 255, .5);
+    font-size: 24px;
+    margin-bottom: 23px;
+    padding-left: 16px;
+  }
+  .btn{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ffd366;
+    font-size: 24px;
+    align-items: center;
+    position: absolute;
+    top: 92px;
+    right: 214px;
+    border: none;
+  }
+
+  .btn:hover{
+    box-shadow: 0 0 5px 5px rgba(255,196,50,.64);
+  
+  }
+  .title{
+    font-size: 24px;
+    margin: 48px 0 36px;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+    width: 1024px;
+    height: 90px;
+    background-color:#ffd366;
+    margin-top: 50px;
+    margin: auto;
+  }
+  .logo{
+    display: flex;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    background-color: #424242;
+  }
+  
+
+  .statusText{
+    font-size: 32px;
+    width: auto;
+    padding-left: 140px;
+  }
+
+  /* JS */
+  .list {
+    width: 90%;
+    background: rgba(255, 255, 255, .5);
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .BMIlist {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    background: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .bmi {
+   font-size: 25px;
+  }
+  .BMIitems {
+   width: 20%;
+   text-align: left;  
+   margin-left: 10px; 
+  }
+  .showDiv{
+    font-size: 24px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 92px;
+    right: 214px; 
+    background: transparent;
+    text-align: center;
+  }
+  .showStatus {
+    font-size: 36px;
+    width: 200px;
+    height: 50px;
+    top: 130px;
+    right: 30px; 
+    background: transparent;
+    position: absolute;
+    text-align: center;
+  }
+  
+  /* undo按鈕 */
+  .undo {
+    border-radius: 50%;
+    margin: 2px;
+    border: 2px solid #424242;
+    position: absolute;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+  }
